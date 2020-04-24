@@ -151,7 +151,7 @@ describe('Family Tree', () => {
       amysFamily.insert('Vivian');
 
       const log = szwajkowskis.log();
-
+      console.log(log)
       expect(
         log.indexOf(
           `-- Pop
