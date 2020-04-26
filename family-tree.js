@@ -42,10 +42,9 @@ class FamilyTree {
       }
       return prefix;
     }
-
     return familyMembers.join('\n');
-
   }
+  
 }
 
 module.exports = FamilyTree;
